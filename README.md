@@ -74,11 +74,43 @@ This chapter introduces Series and DataFrame objects, their relationships, and c
 
 ---
 
+## Chapter 3: Data Visualization with Pandas
+
+This chapter explores how to create **data visualizations** directly with Pandas using its built-in plotting capabilities (powered by **Matplotlib**).  
+It demonstrates how to visualize data trends, distributions, and comparisons efficiently to support exploratory data analysis (EDA).
+
+### **Objectives**
+- Understand how to generate plots directly from Series and DataFrames.  
+- Learn different types of plots for numerical and categorical data.  
+- Customize visual elements such as titles, labels, legends, and gridlines.  
+
+### **Topics Covered**
+1. **Line Plots**
+   - Visualizing time series and sequential data using `DataFrame.plot()`.  
+   - Overlaying multiple Series in one figure for comparison.  
+2. **Bar and Horizontal Bar Charts**
+   - Displaying and comparing categorical variables.  
+   - Adjusting colors, figure sizes, and labels.  
+3. **Histograms**
+   - Exploring frequency distributions of numerical variables.  
+   - Understanding data skewness and spread.  
+4. **Boxplots**
+   - Summarizing data variability and detecting outliers.  
+5. **Area and Pie Charts**
+   - Representing proportions and cumulative trends.  
+6. **Scatter Plots**
+   - Examining relationships between two quantitative variables with `kind='scatter'`.  
+7. **Subplots and Styling**
+   - Creating multiple plots in one figure.  
+   - Customizing themes, titles, legends, and gridlines for better presentation.  
+
+
+---
+
 ## Future Chapters
 
 The repository will continue to expand, focusing on advanced time series forecasting techniques, including:
 
-- **Chapter 3:** Data Visualization with Pandas 
 - **Chapter 4:** Time Series with Pandas  
 - **Chapter 5:** Time Series Analysis with Statsmodels 
 - **Chapter 6:** Generating Forecasting Models 
