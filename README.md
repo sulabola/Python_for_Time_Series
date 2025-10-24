@@ -12,7 +12,19 @@ These notes have been extended to include explanations. The repository will cont
 
 ### Data
 
-Sample datasets used in these exercises are available in the `Data` folder of the repository. Each dataset corresponds to the examples provided.
+Sample datasets used in these exercises are available in the `Data` folder of the repository. Each dataset corresponds to the examples provided in the notebooks.
+
+---
+
+### HTML Files
+
+The `HTML Files` folder contains the **rendered Jupyter notebooks** for each chapter.  
+These HTML files show both the **Python code and output (plots, tables, results)** without requiring a Jupyter environment.  
+To view them:
+1. Download the desired `.html` file from the folder.  
+2. Open it locally in any modern web browser.  
+
+This allows users to review the full notebook, including code, explanations, and figures, even without running Python.
 
 ---
 
@@ -104,14 +116,51 @@ It demonstrates how to visualize data trends, distributions, and comparisons eff
    - Creating multiple plots in one figure.  
    - Customizing themes, titles, legends, and gridlines for better presentation.  
 
+---
+
+## Chapter 4: Time Series with Pandas
+
+This chapter focuses on **working with time-indexed data** using Pandas’ powerful date-time tools.  
+It demonstrates how to parse, manipulate, resample, and visualize time series data effectively.
+
+### **Objectives**
+- Work with datetime indexes and perform time-based selection.  
+- Parse and convert string timestamps.  
+- Resample, shift, and aggregate data.  
+- Visualize and interpret time-based trends.  
+- Handle missing timestamps and time zone conversions.  
+
+### **Topics Covered**
+1. **Datetime Conversion and Indexing**  
+   - Creating datetime indexes with `pd.date_range()` and `set_index()`.  
+   - Parsing custom formats using `pd.to_datetime()`.  
+2. **Selecting and Slicing by Date**  
+   - Filtering data using `.loc[]` with partial string indexing.  
+   - Extracting specific months, years, or ranges.  
+3. **Resampling and Frequency Conversion**  
+   - Downsampling (daily → monthly averages) and upsampling.  
+   - Aggregating with functions like `mean`, `sum`, and `std`.  
+4. **Rolling and Expanding Windows**  
+   - Computing moving averages and cumulative statistics.  
+   - Visualizing rolling and expanding metrics.  
+5. **Shifting and Lagging Data**  
+   - Comparing current vs. prior values using `.shift()`.  
+6. **Date Arithmetic and Offsets**  
+   - Adding or subtracting time periods (`'B'`, `'M'`, `'Q'`).  
+   - Creating offset-based date ranges.  
+7. **Handling Missing Dates and Reindexing**  
+   - Filling gaps.  
+8. **Visualizing Time Series Data**  
+   - Plotting time-indexed Series and DataFrames using `plot()`.  
+   - Adding titles, axis labels, gridlines, and custom ticks.  
+   - Comparing raw vs. resampled or smoothed data visually.  
 
 ---
 
 ## Future Chapters
 
 The repository will continue to expand, focusing on advanced time series forecasting techniques, including:
-
-- **Chapter 4:** Time Series with Pandas  
+ 
 - **Chapter 5:** Time Series Analysis with Statsmodels 
 - **Chapter 6:** Generating Forecasting Models 
 - **Chapter 7:** Deep Learning Models for Time Series Forecasting
