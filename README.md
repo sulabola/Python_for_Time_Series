@@ -12,7 +12,7 @@ These notes have been extended to include explanations. The repository will cont
 
 ### Data
 
-Sample datasets used in these exercises are available in the `Data` folder of the repository. Each dataset corresponds to the examples provided.
+Sample datasets used in these exercises are available in the `Data Files` folder of the repository. Each dataset corresponds to the examples provided.
 
 ---
 
