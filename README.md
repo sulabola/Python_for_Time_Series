@@ -157,12 +157,48 @@ It demonstrates how to parse, manipulate, resample, and visualize time series da
 
 ---
 
+
+## Chapter 5: Time Series Analysis with Statsmodels
+
+This chapter introduces **Statsmodels**, a Python library for building and interpreting statistical time series models.  
+It focuses on trend–cycle decomposition, smoothing techniques, and exponential forecasting methods for understanding time-dependent data behavior.
+
+### **Objectives**
+- Understand the functionality of the `Statsmodels` library for time series analysis.  
+- Perform **trend and cycle decomposition** using the Hodrick–Prescott filter.  
+- Explore **Exponential Smoothing (ETS)** and **Holt-Winters** methods.  
+- Apply and visualize **moving averages** and decomposed components.  
+- Interpret the roles of trend, seasonality, and cyclical patterns in time series.
+
+### **Topics Covered**
+1. **Introduction to Statsmodels**  
+   - Overview of the library and its role in econometrics and forecasting.  
+   - Using built-in statistical tests and tools for time series analysis.  
+2. **Hodrick–Prescott (HP) Filter**  
+   - Separating trend and cyclical components of a time series.  
+   - Understanding the smoothing parameter (`λ`) and its effect.  
+   - Example: Decomposing the U.S. Real GDP data.  
+3. **Time Series Components**  
+   - Identifying trend, seasonality, and cyclical patterns.  
+   - Visualization and interpretation of long-term movements.  
+4. **ETS Decomposition**  
+   - Additive and multiplicative decomposition of time series.  
+   - Extracting trend, seasonal, and residual components.  
+5. **Moving Average Techniques**  
+   - Implementing simple and centered moving averages for smoothing.  
+   - Visual comparison of raw vs. smoothed data.  
+6. **Holt-Winters Exponential Smoothing**  
+   - Modeling trend and seasonality in forecasting.  
+   - Parameter tuning and forecast visualization.  
+
+---
+
+
 ## Future Chapters
 
 The repository will continue to expand, focusing on advanced time series forecasting techniques, including:
  
-- **Chapter 5:** Time Series Analysis with Statsmodels 
-- **Chapter 6:** Generating Forecasting Models 
+- **Chapter 6:** General Forecasting Models 
 - **Chapter 7:** Deep Learning Models for Time Series Forecasting
 - **Chapter 8:** Focebook's Prophet Library
 
