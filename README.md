@@ -194,11 +194,55 @@ It focuses on trend–cycle decomposition, smoothing techniques, and exponential
 ---
 
 
+## Chapter 6: General Forecasting Models
+
+This chapter introduces a comprehensive set of **statistical forecasting models** for analyzing and predicting time series data.  
+It focuses on univariate and multivariate model structures, including ARIMA-based and vector autoregressive models, emphasizing model estimation, diagnostics, and forecasting accuracy evaluation.
+
+### **Objectives**
+- Understand the theory and implementation of **ARIMA-family models** for time series forecasting.  
+- Learn to apply **seasonal** and **exogenous** model extensions such as SARIMA and ARIMAX.  
+- Explore **multivariate models** including **VAR** and **VARMA** for systems of interrelated time series.  
+- Perform model diagnostics, parameter selection, and forecast evaluation using statistical metrics.  
+- Visualize fitted values, residuals, and forecast intervals for interpretability.
+
+### **Topics Covered**
+1. **Introduction to General Forecasting Frameworks**  
+   - Overview of model-based forecasting in Python.  
+   - Train–test splitting, model fitting, and forecast generation.  
+
+2. **AR, MA, and ARIMA Models**  
+   - Theoretical background of autoregressive and moving-average processes.  
+   - Model identification and order selection using ACF and PACF.  
+   - Estimation, diagnostics, and residual analysis.  
+
+3. **SARIMA and ARIMAX Models**  
+   - Seasonal ARIMA modeling for periodic time series.  
+   - Incorporating external (exogenous) regressors with ARIMAX.  
+   - Model selection using information criteria (AIC, BIC).  
+
+4. **Vector Autoregressive (VAR) Models**  
+   - Modeling interdependent time series using VAR.  
+   - Lag selection and stationarity testing.  
+   - Impulse response analysis and forecast visualization.  
+
+5. **Vector Autoregressive Moving Average (VARMA) Models**  
+   - Extending VAR models with moving-average components.  
+   - Fitting and evaluating VARMA structures in Statsmodels.  
+   - Comparing multivariate forecasts with univariate benchmarks.  
+
+6. **Forecast Evaluation**  
+   - Computing forecast errors such as MAE, RMSE, and MAPE.  
+   - Comparing model performance over test periods.  
+   - Visualizing actual vs. predicted series and confidence intervals.
+
+---
+
+
 ## Future Chapters
 
 The repository will continue to expand, focusing on advanced time series forecasting techniques, including:
  
-- **Chapter 6:** General Forecasting Models 
 - **Chapter 7:** Deep Learning Models for Time Series Forecasting
 - **Chapter 8:** Focebook's Prophet Library
 
