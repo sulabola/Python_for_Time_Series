@@ -210,27 +210,22 @@ It focuses on univariate and multivariate model structures, including ARIMA-base
 1. **Introduction to General Forecasting Frameworks**  
    - Overview of model-based forecasting in Python.  
    - Train–test splitting, model fitting, and forecast generation.  
-
 2. **AR, MA, and ARIMA Models**  
    - Theoretical background of autoregressive and moving-average processes.  
    - Model identification and order selection using ACF and PACF.  
    - Estimation, diagnostics, and residual analysis.  
-
 3. **SARIMA and ARIMAX Models**  
    - Seasonal ARIMA modeling for periodic time series.  
    - Incorporating external (exogenous) regressors with ARIMAX.  
    - Model selection using information criteria (AIC, BIC).  
-
 4. **Vector Autoregressive (VAR) Models**  
    - Modeling interdependent time series using VAR.  
    - Lag selection and stationarity testing.  
    - Impulse response analysis and forecast visualization.  
-
 5. **Vector Autoregressive Moving Average (VARMA) Models**  
    - Extending VAR models with moving-average components.  
    - Fitting and evaluating VARMA structures in Statsmodels.  
    - Comparing multivariate forecasts with univariate benchmarks.  
-
 6. **Forecast Evaluation**  
    - Computing forecast errors such as MAE, RMSE, and MAPE.  
    - Comparing model performance over test periods.  
@@ -239,11 +234,40 @@ It focuses on univariate and multivariate model structures, including ARIMA-base
 ---
 
 
+## Chapter 7: Deep Learning Models for Time Series Forecasting
+
+This chapter introduces **deep learning architectures** for modeling and forecasting time series data.  
+It focuses on understanding neural network structures, sequential dependencies, and advanced architectures such as **RNN**, **LSTM**, and **GRU** for capturing complex temporal patterns.
+
+### **Objectives**
+- Understand the intuition and architecture behind **Recurrent Neural Networks (RNNs)**.  
+- Explore **Long Short-Term Memory (LSTM)** and **Gated Recurrent Unit (GRU)** models for sequence learning.  
+- Train, evaluate, and visualize model performance using Python libraries such as **TensorFlow** and **Keras**.  
+- Compare forecasting performance across different deep learning models.
+
+### **Topics Covered**
+1. **Introduction to Deep Learning for Time Series**  
+   - Overview of neural network principles for sequential data modeling.  
+   - Activation functions, backpropagation through time, and the vanishing gradient problem.  
+2. **Recurrent Neural Networks (RNN)**  
+   - Architecture and working principles of RNNs.  
+   - Sequence-to-one structure for time series forecasting.  
+3. **Long Short-Term Memory (LSTM) Networks**  
+   - Understanding memory cells, input, output, and forget gates.  
+   - Building and training LSTM models for univariate time series forecasting.  
+4. **Gated Recurrent Units (GRU)**  
+   - Simplified gate structure and comparison with LSTM networks.  
+   - Efficient implementation of GRU for time series forecasting.  
+5. **Model Evaluation and Visualization**  
+   - Evaluation metrics such as **MAE**, **RMSE**, and **MAPE**.  
+   - Visualization of training loss, predictions, and forecast accuracy.
+
+
+
 ## Future Chapters
 
 The repository will continue to expand, focusing on advanced time series forecasting techniques, including:
  
-- **Chapter 7:** Deep Learning Models for Time Series Forecasting
 - **Chapter 8:** Focebook's Prophet Library
 
 ---
