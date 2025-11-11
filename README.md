@@ -262,13 +262,33 @@ It focuses on understanding neural network structures, sequential dependencies, 
    - Evaluation metrics such as **MAE**, **RMSE**, and **MAPE**.  
    - Visualization of training loss, predictions, and forecast accuracy.
 
+---
 
+## Chapter 8: Forecasting with Prophet Library
 
-## Future Chapters
+This chapter introduces **Prophet**, a forecasting library developed by **Meta (Facebook)** designed for modeling time series data that exhibit strong **trend**, **seasonality**, and **holiday effects**.  
+It demonstrates how Prophet simplifies time series forecasting by providing an intuitive, decomposable model that automatically handles missing data, outliers, and irregular time intervals.
 
-The repository will continue to expand, focusing on advanced time series forecasting techniques, including:
- 
-- **Chapter 8:** Focebook's Prophet Library
+### **Objectives**
+- Understand the underlying additive model structure of Prophet.  
+- Learn how to fit Prophet models to real time series data.  
+- Explore the roles of **trend**, **seasonality**, and **changepoints** in forecasts.  
+- Visualize forecast components and uncertainty intervals.  
+- Evaluate forecast accuracy through model diagnostics.  
+
+### **Topics Covered**
+1. **Overview of Prophet**
+   - Introduction to Prophet’s additive model combining trend, seasonality, and holidays.  
+2. **Data Preparation**
+   - Formatting the dataset with columns `ds` (date) and `y` (observed value).  
+3. **Model Fitting**
+   - Creating and fitting a `Prophet()` model and generating future predictions with `make_future_dataframe()` and `predict()`.  
+4. **Component Analysis**
+   - Plotting forecast results and decomposed components (trend, weekly, and yearly seasonality).  
+5. **Parameter Customization**
+   - Adjusting changepoint prior scale and seasonality settings to control model flexibility.  
+6. **Forecast Visualization and Evaluation**
+   - Visualizing forecast intervals and comparing predictions with actual observations.  
 
 ---
 
